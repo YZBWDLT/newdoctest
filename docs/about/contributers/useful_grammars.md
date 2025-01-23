@@ -136,3 +136,47 @@ last_update:
 :::
 
 此外你还可以嵌套使用，想怎么用主要取决于你！
+
+## 选项卡（Tabs）
+
+:::info
+
+关于选项卡的更多信息，可以查阅 Docusaurus 的[官方网站](https://docusaurus.io/zh-CN/docs/markdown-features/tabs)了解更多的接口信息。
+
+:::
+
+以下是实例示范：
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs>
+  <TabItem value="apple" label="Apple" default>
+    This is an apple 🍎
+  </TabItem>
+  <TabItem value="orange" label="Orange">
+    This is an orange 🍊
+  </TabItem>
+  <TabItem value="banana" label="Banana">
+    This is a banana 🍌
+  </TabItem>
+</Tabs>
+
+下面是实现上述功能所需的代码。
+
+``` mdx
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs>
+  <TabItem value="apple" label="Apple" default>
+    This is an apple 🍎
+  </TabItem>
+  <TabItem value="orange" label="Orange">
+    This is an orange 🍊
+  </TabItem>
+  <TabItem value="banana" label="Banana">
+    This is a banana 🍌
+  </TabItem>
+</Tabs>
+```

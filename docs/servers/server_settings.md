@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ## 说明
 
-- 请务必遵守[群规](rules.md)中关于服务器的所有规定。  
+- 请务必遵守[群规](../rules/rules_main_text)中关于服务器的所有规定。  
 
 :::info[群规节选]
 
