@@ -1,17 +1,17 @@
 ---
 sidebar_position: 1
 title: 主页
-description: 《冒险世界》系列开山之作，梦开始的地方
+description: 《冒险世界》第三部，你能否逃出这些复杂的迷宫呢？
 ---
 
-# 冒险世界：逃离
+# 冒险世界：迷失
 
-冒险世界：逃离是一张规模中等的地图。该地图为综合向解谜地图，涵盖跑酷、PVE、解谜等各种玩法。
+冒险世界：迷失是一张较大规模的地图。该地图为综合向迷宫类型地图，涵盖跑酷、PVE、解谜等各种玩法。
 
 关于冒险世界系列的其他地图，参见：
-- 冒险世界：逃离（本页面）
+- [冒险世界：逃离](../adventure_world_1/homepage)
 - [冒险世界：苏醒](../adventure_world_2/homepage)
-- [冒险世界：迷失](../adventure_world_3/homepage)
+- 冒险世界：迷失（本页面）
 - [冒险小世界：剑之试炼](../adventure_world_4/homepage)
 - [冒险世界：筑梦](../../developing/adventure_world_5/homepage)
 
@@ -23,7 +23,7 @@ description: 《冒险世界》系列开山之作，梦开始的地方
 - **制作人表** 详情见[制作人表页面](credits)
 - **版本需求** 1.18.0+
 - **资源类型** 地图 - 综合地图
-- **最新版本** 1.0
+- **最新版本** 3.0
 - **更新日志** 详情见[更新日志页面](update_log)
 - **漏洞汇报** 详情见[漏洞与建议汇报页面](bugs)
 
@@ -50,9 +50,3 @@ description: 《冒险世界》系列开山之作，梦开始的地方
 - [MineBBS](https://www.minebbs.com/resources/1-18-_-_.9844/)
 - [TITAIKE](https://www.titaike.cn/5955.html) 
 - 中国版资源中心
-
----
-
-## 你知道吗
-
-- 本地图是巴豆为进入极筑工坊所制作的一张 demo 地图。
