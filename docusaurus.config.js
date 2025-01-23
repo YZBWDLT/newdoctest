@@ -12,7 +12,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
     title: '量筒测试群 群文档',
     tagline: '记录群内大小事务的文档',
-    favicon: 'img/favicon.ico',
+    favicon: 'img/yzbwdlt.png',
 
     // Set the production url of your site here
     url: 'https://github.com',
@@ -57,7 +57,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */ themeConfig: ({
 
         // Replace with your project's social card
-        image: 'img/docusaurus-social-card.jpg',
+        image: 'img/yzbwdlt.png',
 
         // 网站颜色主题
         colorMode: {
@@ -83,6 +83,12 @@ const config = {
                     sidebarId: 'server'
                 },
                 {
+                    label: '关于',
+                    position: 'left',
+                    type: 'docSidebar',
+                    sidebarId: 'about'
+                },
+                {
                     href: 'https://github.com/PumpkinJui/groupdocs',
                     label: 'GitHub',
                     position: 'right',
@@ -95,23 +101,24 @@ const config = {
                 {
                     title: 'Docs',
                     items: [
-                        {
-                            label: 'Tutorial',
-                            to: '/docs/intro',
-                        },
+                        { label: 'Tutorial', to: '/docs/intro', },
                     ],
                 },
                 {
                     title: 'More',
                     items: [
-                        {
-                            label: 'GitHub',
-                            href: 'https://github.com/PumpkinJui/groupdocs',
-                        },
+                        { label: 'GitHub', href: 'https://github.com/PumpkinJui/groupdocs', },
                     ],
                 },
+                {
+                    title: '授权许可',
+                    items: [
+                        { label: 'CC-BY-4.0', href: 'https://creativecommons.org/licenses/by/4.0/deed.zh-hans' },
+                        { label: '许可证概览', to: '/docs/about/license/overview_zh' },
+                        { label: 'License Overview', to: '/docs/about/license/overview_en' },                    ],
+                },
             ],
-            copyright: `Copyright © ${new Date().getFullYear()} 量筒测试群. Built with Docusaurus.`,
+            copyright: `版权归 © 2019 - ${new Date().getFullYear()} 极筑 · 量筒地图测试群所有。本站使用 Docusaurus 构建。`,
         },
         prism: {
             theme: prismThemes.github,
