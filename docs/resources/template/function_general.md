@@ -82,7 +82,7 @@ gamemode adventure @a
 > **注意**  
   这种写法在状态`1-5`下也可以使用，但如果不需要特定时间特定命令的话，使用不会引起`time.timeline`变化的状态可以节省性能。
 
-- 下面是节选与改编自[30种死法2](../update_stopped/30_ways_to_die_2/homepage.md)的时间线文件的部分内容：
+- 下面是节选与改编自[30种死法2](../completed/30_ways_to_die_2/homepage.md)的时间线文件的部分内容：
 
 ```
 # ===== 时间线控制器 =====

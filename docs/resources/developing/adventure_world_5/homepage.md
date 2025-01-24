@@ -9,10 +9,10 @@ description: 《冒险世界》的第五部续作，一张大型综合地图
 冒险世界：筑梦冒险世界系列的第五部作品。作者**狂野巴豆**。预计制成集合解密、跑酷、PVE等玩法的角色扮演地图。处于更新状态，并计划发布于多个平台。
 
 关于冒险世界系列的其他地图，参见：
-- [冒险世界：逃离](../../has_update_plan/adventure_world_1/homepage)
-- [冒险世界：苏醒](../../has_update_plan/adventure_world_2/homepage)
-- [冒险世界：迷失](../../has_update_plan/adventure_world_3/homepage)
-- [冒险小世界：剑之试炼](../../has_update_plan/adventure_world_4/homepage)
+- [冒险世界：逃离](../../planning/adventure_world_1/homepage)
+- [冒险世界：苏醒](../../planning/adventure_world_2/homepage)
+- [冒险世界：迷失](../../planning/adventure_world_3/homepage)
+- [冒险小世界：剑之试炼](../../planning/adventure_world_4/homepage)
 - 冒险世界：筑梦（本页面）
 
 ---
