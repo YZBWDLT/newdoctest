@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # 如何导入 MC 格式文件
 
 :::tip[注意]

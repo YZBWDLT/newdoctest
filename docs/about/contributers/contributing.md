@@ -5,6 +5,16 @@ description: 在你正式对群文档做出贡献之前，请先阅读这篇文�
 
 # 群文档编辑指南
 
+:::tip
+
+该文章的内容需要改进。
+
+理由：群文档现已迁移到 Docusaurus ，因此，本文的部分信息已经过时。
+
+位于：全文提到 GitBook 的地方。
+
+:::
+
 作为被移除内容的补充：协作者以外的各位，可以在群内或 GitHub 上提出建议；如有意愿获取编辑权限，请联系 @PumpkinJui，并阐述你获取权限的理由。
 
 ## 关于本文档及核心概念
@@ -35,7 +45,7 @@ description: 在你正式对群文档做出贡献之前，请先阅读这篇文�
 
 **以下内容为强制性规范。**
 
-无法访问 GitHub？请参阅[这里](../docs/howto/access_github.md)。但是要注意……
+无法访问 GitHub？请参阅[这里](../../tools/howto/access_github)。但是要注意……
 
 如无特殊情况，***禁止使用 GitHub 网页版进行大量编辑！！！***
 
@@ -129,7 +139,7 @@ GitBook 使用的 MarkDown 方言类似于 GitHub Flavored Markdown (GFM, [Spec]
 
 ### 搭建测试
 
-群文档内有 GitBook-cli 环境配置教程，分 [Windows](../docs/howto/gitbook_windows.md) 和 [Termux](../docs/howto/gitbook_termux.md) 两个版本。
+群文档内[有 GitBook-cli 环境配置教程](../../tools/howto/gitbook.md)。
 
 ## markdownlint
 

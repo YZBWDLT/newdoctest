@@ -3,7 +3,7 @@ sidebar_position: 4
 description: 了解全服第二开发的区域的现状。
 ---
 
-# 矿山区域
+# 矿山
 
 :::tip
 

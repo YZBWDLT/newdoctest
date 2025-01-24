@@ -1,6 +1,7 @@
 ---
 sidebar_position: 2
 description: 查看银月各区未来的发展计划，以及你可以在这里做什么。
+title: 银月
 ---
 
 # 银月市发展未来规划

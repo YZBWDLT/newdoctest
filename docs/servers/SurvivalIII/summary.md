@@ -27,7 +27,7 @@ description: 生存服的基本情况简介。
 - [新光](developing_areas/xinguang/summary)（量筒、小鼠）
 - [银月](developing_areas/silvermoon/summary)（巴豆、比翼鸟）
 - [辰辉](developing_areas/chenhui)（星辰）
-- [矿山区域](developing_areas/diggings)（南瓜汁、文雨）
+- [矿山](developing_areas/diggings)（南瓜汁、文雨）
 - [雪原](developing_areas/snowfield)（鸽子、地雷）
 - [西海](developing_areas/west_sea)（命令块）
 
@@ -50,6 +50,6 @@ description: 生存服的基本情况简介。
 
 因为存档大小过于庞大，为防止进一步挤占群文件空间，同时为方便备份上传，我们使用「[123 云盘](https://www.123684.com/s/t3TqVv-EC3kh)」和「[OneDrive](https://1drv.ms/u/c/365ab37ede8dd3c6/ERAkOVOYsuJCsgss9CuYWgEBjoBExZxKBGZOjAzgDbcR8Q?e=dTAjY6)」进行共享。云盘文件名称中的日期为对应存档的**备份时间**。
 
-另外，群成员 @小飞侠 自行将生存服的存档搬运到他的「[OneDrive](https://tang07-my.sharepoint.com/:f:/g/personal/admin_tang07_onmicrosoft_com/Eta9C-_nxlpEocOOYD2hrVsB0zYrE6cIssB9MMer1py5fw?e=ceJxma)」作为备用下载通道。[文件中的校验码是什么？](../howto/hashfile.md)
+另外，群成员 @小飞侠 自行将生存服的存档搬运到他的「[OneDrive](https://tang07-my.sharepoint.com/:f:/g/personal/admin_tang07_onmicrosoft_com/Eta9C-_nxlpEocOOYD2hrVsB0zYrE6cIssB9MMer1py5fw?e=ceJxma)」作为备用下载通道。[文件中的校验码是什么？](../../tools/howto/hashfile)
 
-> 123 云盘下载策略调整，在下载大文件时有极大可能会弹出要求登录或者付费的弹窗。更多详情请看群文档[这篇文章](../urls/mcbe.md)中的「关于 123 云盘」一节。
+> 123 云盘下载策略调整，在下载大文件时有极大可能会弹出要求登录或者付费的弹窗。更多详情请看群文档[这篇文章](../../tools/urls/mcbe)中的「关于 123 云盘」一节。

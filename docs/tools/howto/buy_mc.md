@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # 如何入正 MC 国际版
 
 :::tip

@@ -50,7 +50,7 @@ We referred to the following articles to select plugins: (They are in Chinese)
 
 ## Resource Packs in Survival III
 
-The resource packs used in the Survival III server can be found on [the relevant page](../docs/SurvivalIII/README.md).
+The resource packs used in the Survival III server can be found on [the relevant page](../../servers/SurvivalIII/summary).
 
 ## Others
 
@@ -59,7 +59,7 @@ The resource packs used in the Survival III server can be found on [the relevant
 - Qwen (also called Tongyi Qianwen) has contributed to the following:
   - Writing the [image compression script](https://github.com/PumpkinJui/groupdocs-images/blob/main/compress.sh)
   - Translating this page
-  - Writing [LaTeX code](https://github.com/PumpkinJui/groupdocs-images/blob/main/assets/meeting_offline/) for the table in [Offline Meeting Progress](../docs/meeting_offline.md)  
+  - Writing [LaTeX code](https://github.com/PumpkinJui/groupdocs-images/blob/main/assets/meeting_offline/) for the table in [Offline Meeting Progress](../meeting_offline)  
     The table was compiled with TeXworks and LuaLaTeX from MikTeX, and the PDF-to-image conversion was performed using [Photo Editor](https://github.com/dev-macgyver/PhotoEditor)
-- Tongyi Tingwu has contributed to the plot in [Menu](../docs/menu.md)
+- Tongyi Tingwu has contributed to the plot in [Menu](../menu)
 - The copyright of other unmentioned third-party content belongs to their owners

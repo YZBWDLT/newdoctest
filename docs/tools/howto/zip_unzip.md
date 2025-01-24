@@ -1,3 +1,7 @@
+---
+sidebar_position: 4
+---
+
 # 如何压缩和解压缩
 
 :::tip

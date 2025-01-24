@@ -14,7 +14,7 @@ sidebar_position: 2
 
 在 2021~2022 年的某个时间，群文档中的「常用网址汇总」(现名称为「网址大全」) 开始以群公告形式维护。
 
-在[生存 II 档](../docs/SurvivalIII/README.md#%E5%8E%86%E5%8F%B2)开服后，群文档中的「服务器设定」开始以群公告形式维护。
+在[生存 II 档](../servers/SurvivalIII/summary#历史)开服后，群文档中的「服务器设定」开始以群公告形式维护。
 
 ## 迁移
 
@@ -45,7 +45,7 @@ sidebar_position: 2
 
 为保证图片加载速度，群文档所使用的图片大多经过压缩。源文件仍在 [GitHub](https://github.com/PumpkinJui/groupdocs-images) 上的独立仓库留有备份。  
 
-如果打不开 GitHub 仓库，请参考[此页面](../docs/howto/access_github.md)。
+如果打不开 GitHub 仓库，请参考[此页面](../tools/howto/access_github)。
 
 旧版群文档仍可在 [Notion](https://pumpkinjui.notion.site/3196cdb181cd4c609a0ddf76d27cb9f9) 和 [GitHub Pages](https://pumpkinjui.github.io/groupdocs-legacy) 上访问，并在 [Gitee](https://gitee.com/pumpkinjui/groupdocs-legacy) 和 [GitHub](https://github.com/PumpkinJui/groupdocs-legacy) 上开源，但已不再更新。  
 原来部署在 GitBook.com 上的站点已无法访问，原域名为 `https://pumpkinjui.gitbook.io/groupdocs/`。

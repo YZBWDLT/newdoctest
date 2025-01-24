@@ -57,7 +57,7 @@ description: 查看本地图的所有更新日志。
 
 ### 底层更新
 
-- 本地图在[函数系统 v2](../map_template/function_general_v2.md)、[玩家血量监控](../map_template/health_controller.md)、[交互实体与 NPC](../map_template/interaction_and_npc.md)、[标记实体与文本展示实体](../map_template/marker_and_test_display.md)的基础上，适应改进后进行开发。因此，部分物品、实体、变量等与这些小包通用。
+- 本地图在[函数系统 v2](../../template_for_development/function_general_v2)、[玩家血量监控](../../template_for_development/health_controller.md)、[交互实体与 NPC](../../template_for_development/interaction_and_npc)、[标记实体与文本展示实体](../../template_for_development/marker_and_test_display)的基础上，适应改进后进行开发。因此，部分物品、实体、变量等与这些小包通用。
 - 因开发分工限制，本更新日志不会详细地展现变量、文件、功能点等底层上的变化。
 
 ## v0.12

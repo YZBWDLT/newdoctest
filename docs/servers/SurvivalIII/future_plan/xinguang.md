@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 description: 查看新光各区未来的发展计划，以及你可以在这里做什么。
+title: 新光
 ---
 
 # 新光市发展未来规划

@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 description: 了解新光市乃至适用于全服的一些特殊规定。
+title: 新光
 ---
 
 # 新光市管理条例

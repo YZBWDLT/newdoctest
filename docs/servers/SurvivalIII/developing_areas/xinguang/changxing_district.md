@@ -23,15 +23,15 @@ description: 新光大型工业区所在地。
 
 ### 猪人塔
 
-猪人塔是一台可产出金和经验的核心工业机器。有关其更多信息和使用用法，已在「[猪人塔](../industries/zombified_piglin_farm.md)」中记录。
+猪人塔是一台可产出金和经验的核心工业机器。有关其更多信息和使用用法，已在「[猪人塔](../../industries/zombified_piglin_farm)」中记录。
 
 ### 刷铁机
 
-刷铁机是一台可产出铁的核心工业机器。有关其更多信息和使用用法，已在「[刷铁机](../industries/iron_golem_farm.md)」中记录。
+刷铁机是一台可产出铁的核心工业机器。有关其更多信息和使用用法，已在「[刷铁机](../../industries/iron_golem_farm.md)」中记录。
 
 ### 火药塔
 
-刷铁机是一台可产出火药的重要工业机器。有关其更多信息和使用用法，已在「[火药塔](../industries/gunpowder_farm.md)」中记录。
+刷铁机是一台可产出火药的重要工业机器。有关其更多信息和使用用法，已在「[火药塔](../../industries/gunpowder_farm.md)」中记录。
 
 ---
 
@@ -140,4 +140,4 @@ description: 新光大型工业区所在地。
 ### 海龟机
 
 > 提示  
-  该机器可能会迁移至[银月](../silvermoon/README.md)。
+  该机器可能会迁移至[银月](../../developing_areas/silvermoon/summary)。

@@ -1,6 +1,7 @@
 ---
 sidebar_position: 2
 description: 了解银月市的管理规定。
+title: 银月
 ---
 
 # 银月市管理条例
