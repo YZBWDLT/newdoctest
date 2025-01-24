@@ -70,10 +70,10 @@ const config = {
             title: '量筒测试群 群文档',
             logo: { alt: 'Logo', src: 'img/yzbwdlt.png', },
             items: [
-                { label: '文档', position: 'left', type: 'docSidebar', sidebarId: 'groupdoc' },
                 { label: '群规', position: 'left', type: 'docSidebar', sidebarId: 'rule' },
                 { label: '群资源', position: 'left', type: 'docSidebar', sidebarId: 'resource' },
                 { label: '服务器', position: 'left', type: 'docSidebar', sidebarId: 'server' },
+                { label: '工具', position: 'left', type: 'docSidebar', sidebarId: 'tool' },
                 { label: '关于', position: 'left', type: 'docSidebar', sidebarId: 'about' },
                 {
                     href: 'https://github.com/PumpkinJui/groupdocs',
