@@ -1,8 +1,4 @@
 {
   "label": "炸翻它！",
-  "position": 4,
-  "link": {
-    "type": "generated-index",
-    "description": "把眼前的建筑通通炸个干净吧！"
-  }
+  "position": 4
 }

@@ -1,8 +1,4 @@
 {
   "label": "量筒的起床战争",
-  "position": 2,
-  "link": {
-    "type": "generated-index",
-    "description": "仿照 Hypixel 在基岩版上做的起床战争！"
-  }
+  "position": 2
 }

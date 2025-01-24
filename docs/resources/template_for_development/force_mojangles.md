@@ -1,8 +1,10 @@
 # 强制 Mojangles 字体 文档
 
-## 包性质
+:::info[本包性质]
 
-本包为资源包。
+本包为**资源包**。
+
+:::
 
 ## 使用说明
 
@@ -14,7 +16,7 @@
 
 ## 参考文献
 
-* [ 字体 - 中文 Minecraft Wiki ]，链接：[ https://zh.minecraft.wiki/w/字体 ] 。
+* [字体 | 中文 Minecraft Wiki](https://zh.minecraft.wiki/w/字体)
 
 ## 更新日志
 

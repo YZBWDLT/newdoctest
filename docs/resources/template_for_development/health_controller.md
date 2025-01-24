@@ -1,16 +1,22 @@
 # 玩家血量监控 文档
 
-## 包性质
+:::info[本包性质]
 
-本包为行为包。
+本包为**行为包**。
 
-## 使用说明
+:::
 
 本包内置了一套玩家的**血量监测系统**，可以帮助您**控制玩家的血量上限**，以及**检测玩家当前的血量**。
 
-### 控制玩家血量上限
+:::note[注意：本文的通用语言]
 
-#### 基本使用方法
+在下文，我们把 a 记分板上名为 b 的追踪目标记为`a.b`。例如，检测`a.b`的分数是否为1，为`/execute if score b a matches 1`。
+
+:::
+
+## 控制玩家血量上限
+
+### 基本使用方法
 
 您可以**使用下面的命令以控制玩家的血量上限**：
 
@@ -22,13 +28,13 @@
 
 使用这条命令后，将立即更改玩家的血量上限。当您想设置一个较低的血量上限的时候，它将会非常有用。
 
-#### 自定义血量上限
+### 自定义血量上限
 
 您也可以考虑自定义您所需要的玩家血量上限。原理非常简单，请打开包中的`BP/entities/vanilla/player.json`。您会看到我们已经对玩家文件进行了修改，并使用了多个事件和组件组进行区分。您可以仿照已有内容的写法进行扩展。
 
 例如，假设我们现在需要让玩家的血量上限改为 3 。找到实体文件中的事件`events`，您会看到以下的内容：
 
-``` json
+```json title="BP/entities/vanilla/player.json"
 "events": {
     ...,
     "max_health_38": { "add": { "component_groups": [ "max_health_38" ] } },
@@ -38,13 +44,13 @@
 
 我们仿照着编写一个新的实体生成事件如下：
 
-``` json
+```json title="BP/entities/vanilla/player.json"
 "max_health_3": { "add": { "component_groups": [ "max_health_3" ] } }
 ```
 
 将它插入到`events`的末尾，请注意 JSON 文件语法的逗号要求：
 
-``` json
+```json title="BP/entities/vanilla/player.json"
 "events": {
     ...,
     "max_health_38": { "add": { "component_groups": [ "max_health_38" ] } },
@@ -55,7 +61,7 @@
 
 然后，补充在上文中提到的`max_health_3`组件组。找到组件组`component_groups`：
 
-``` json
+```json title="BP/entities/vanilla/player.json"
 "component_groups": {
     ...,
     "max_health_38": {
@@ -69,7 +75,7 @@
 
 同理，按照下文的方式扩写：
 
-``` json
+```json title="BP/entities/vanilla/player.json"
 "component_groups": {
     ...,
     "max_health_38": {
@@ -92,9 +98,9 @@ event entity @a max_health_3
 
 后，玩家的血量上限就会被改为 3 了。
 
-### 检测玩家当前血量
+## 检测玩家当前血量
 
-#### 基本使用方法
+### 基本使用方法
 
 使用方法非常简单。首先，您可以使用下面的命令创建一个检测血量所需的记分板`health`：
 
@@ -116,11 +122,11 @@ execute as @a if score @s health matches 10.. run (命令)
 
 本包所提供的检测玩家血量的范围在 0~40 。在极大多数情况下，这样的范围应该已经能够符合您的需求。 
 
-#### 自定义检测范围
+### 自定义检测范围
 
 如果我们所提供的血量检测范围无法满足您的需求，则您可以自行扩充。请您打开包中的`BP/animation_controllers/player.animation_controllers.json`，您会看到一个经过大量穷举的文件：
 
-``` json
+```json title="BP/animation_controllers/player.animation_controllers.json"
 {
     "format_version": "1.10.0",
     "animation_controllers": {
@@ -148,7 +154,7 @@ execute as @a if score @s health matches 10.. run (命令)
 
 如果您想要扩展范围，例如将检测范围扩展到 50 ，需要按照类似的方法在`default`状态中，以及`(41~50)_health`状态进行穷举：
 
-``` json
+```json title="BP/animation_controllers/player.animation_controllers.json"
 "default": {
     "transitions": [
         { "41_health": "query.health >= 40 && query.health <= 41" },
@@ -177,8 +183,6 @@ execute as @a if score @s health matches 10.. run (命令)
 
 ## 参考文献
 
-1. [中文 Minecraft Wiki - Tutorial:自定义实体#事件与组件组](https://zh.minecraft.wiki/w/Tutorial:自定义实体#事件与组件组)
-
-2. [微软文档 - 实体文档 - minecraft:health](https://learn.microsoft.com/en-us/minecraft/creator/reference/content/entityreference/examples/entitycomponents/minecraftcomponent_health?view=minecraft-bedrock-stable)
-
-3. [中文 Minecraft Wiki - Tutorial:自定义实体#行为包动画与动画控制器](https://zh.minecraft.wiki/w/Tutorial:自定义实体#行为包动画与动画控制器)
+- [Tutorial:自定义实体#事件与组件组 | 中文 Minecraft Wiki](https://zh.minecraft.wiki/w/Tutorial:自定义实体#事件与组件组)
+- [实体文档 - minecraft:health | 微软文档](https://learn.microsoft.com/en-us/minecraft/creator/reference/content/entityreference/examples/entitycomponents/minecraftcomponent_health?view=minecraft-bedrock-stable)
+- [Tutorial:自定义实体#行为包动画与动画控制器 | 中文 Minecraft Wiki](https://zh.minecraft.wiki/w/Tutorial:自定义实体#行为包动画与动画控制器)

@@ -180,3 +180,54 @@ import TabItem from '@theme/TabItem';
   </TabItem>
 </Tabs>
 ```
+
+## 代码块高亮与标题
+
+以前的群文档中，代码块通常用下面的方式来解决：
+
+````
+```
+这是一个代码块
+```
+````
+
+如果声明这个代码块的语言为 `text` ，你可以用下面的方式实现特定行的代码高亮：
+
+````
+```text
+1
+//highlight-start
+2
+//highlight-end
+3
+```
+````
+
+效果是：
+
+```text
+1
+//highlight-start
+2
+//highlight-end
+3
+```
+
+如果在声明了类型的基础上还声明了`title`，你还可以标记出它的标题：
+
+````
+```text title="awa"
+1
+2
+3
+```
+````
+
+效果是：
+
+```text title="awa"
+1
+2
+3
+```
+

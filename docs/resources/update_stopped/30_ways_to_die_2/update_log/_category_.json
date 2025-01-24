@@ -1,8 +1,4 @@
 {
   "label": "更新日志",
-  "position": 2,
-  "link": {
-    "type": "generated-index",
-    "description": "30 种死法 2 一共拥有 5 个大版本。请选择你要查看的更新日志。"
-  }
+  "position": 2
 }
