@@ -141,6 +141,9 @@ sidebar_position: 2
 | 条形马 | QRnobelly | ✔ | 皮革<br/>— | ❔ | |
 | 怡柔 | Oculusina | ✘ | —<br/>— | ❔ | |
 | kokoa | — | ✔ | —<br/>— | ❔ | |
+| 木糖 | Xylitol2337 | ✔ | —<br/>— | ❔ | |
+| 小面包 | Xiaomianbao2007 |  ✔ | —<br/>— | ❔ | 马可服服管理 |
+| 鱼周 | UnhandyShark856 | ✔ | —<br/>— | ❔ | 马可服群管理、服管理 |
 
 ## 离群成员 (未违规)
 

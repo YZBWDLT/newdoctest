@@ -45,7 +45,23 @@ const config = {
                     sidebarPath: './sidebars.js',
                     editUrl: 'https://github.com/PumpkinJui/groupdocs/tree/main/',
                 },
-                blog: false,
+                blog: {
+                    routeBasePath: 'blog/anno',
+                    showReadingTime: true,
+                    feedOptions: {
+                      type: ['rss', 'atom'],
+                      xslt: true,
+                    },
+                    blogSidebarCount: 'ALL',
+                    // Please change this to your repo.
+                    // Remove this to remove the "edit this page" links.
+                    editUrl:
+                      'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+                    // Useful options to enforce blogging best practices
+                    onInlineTags: 'warn',
+                    onInlineAuthors: 'warn',
+                    onUntruncatedBlogPosts: 'ignore',
+                  },
                 theme: {
                     customCss: './src/css/custom.css',
                 },
@@ -58,6 +74,12 @@ const config = {
 
         // Replace with your project's social card
         image: 'img/yzbwdlt.png',
+
+        docs: {
+            sidebar: {
+                hideable: true,
+            }
+        },
 
         // 网站颜色主题
         colorMode: {
@@ -74,6 +96,7 @@ const config = {
                 { label: '群资源', position: 'left', type: 'docSidebar', sidebarId: 'resource' },
                 { label: '服务器', position: 'left', type: 'docSidebar', sidebarId: 'server' },
                 { label: '工具', position: 'left', type: 'docSidebar', sidebarId: 'tool' },
+                { label: '公告', position: 'left', to: '/blog/anno' },
                 { label: '关于', position: 'left', type: 'docSidebar', sidebarId: 'about' },
                 {
                     href: 'https://github.com/PumpkinJui/groupdocs',
