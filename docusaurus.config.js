@@ -53,11 +53,8 @@ const config = {
                       xslt: true,
                     },
                     blogSidebarCount: 'ALL',
-                    // Please change this to your repo.
-                    // Remove this to remove the "edit this page" links.
                     editUrl:
-                      'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-                    // Useful options to enforce blogging best practices
+                      'https://github.com/PumpkinJui/groupdocs/tree/main/',
                     onInlineTags: 'warn',
                     onInlineAuthors: 'warn',
                     onUntruncatedBlogPosts: 'ignore',
@@ -98,34 +95,51 @@ const config = {
                 { label: '工具', position: 'left', type: 'docSidebar', sidebarId: 'tool' },
                 { label: '公告', position: 'left', to: '/blog/anno' },
                 { label: '关于', position: 'left', type: 'docSidebar', sidebarId: 'about' },
-                {
-                    href: 'https://github.com/PumpkinJui/groupdocs',
-                    label: 'GitHub',
-                    position: 'right',
-                },
+                { label: 'GitHub', position: 'right', href: 'https://github.com/PumpkinJui/groupdocs', },
             ],
         },
         footer: {
             style: 'dark',
             links: [
                 {
-                    title: 'Docs',
+                    title: '我们的优质资源',
                     items: [
-                        { label: 'Tutorial', to: '/docs/intro', },
+                        { label: '30 种死法 2', to: '/docs/resources/completed/ways_to_die_2/homepage', },
+                        { label: '量筒的起床战争', to: 'docs/resources/developing/bedwars/homepage' },
+                        { label: '冒险世界：苏醒', to: 'docs/resources/planning/adventure_world_2/homepage', },
+                        { label: '冒险小世界：剑之试炼', to: 'docs/resources/planning/adventure_world_4/homepage', },
+                        { label: '冒险世界：筑梦', to: 'docs/resources/developing/adventure_world_5/homepage' },
+                        { label: 'Minecraft Picross', to: 'docs/resources/completed/minecraft_picross/homepage' }
                     ],
                 },
                 {
-                    title: 'More',
+                    title: '常用链接与工具',
                     items: [
-                        { label: 'GitHub', href: 'https://github.com/PumpkinJui/groupdocs', },
-                    ],
+                        { label: '中文 Minecraft Wiki', href: 'https://zh.minecraft.wiki/' },
+                        { label: 'Chunkbase', href: 'https://www.chunkbase.com/apps/' },
+                        { label: '下载国际基岩版 Minecraft', to: 'docs/tools/urls/mcbe' },
+                        { label: 'MC 开发者常用链接合集', to: '/docs/tools/urls/develop' }
+                    ]
                 },
                 {
                     title: '授权许可',
                     items: [
                         { label: 'CC-BY-4.0', href: 'https://creativecommons.org/licenses/by/4.0/deed.zh-hans' },
                         { label: '许可证概览', to: '/docs/about/license/overview_zh' },
-                        { label: 'License Overview', to: '/docs/about/license/overview_en' },                    ],
+                        { label: 'License Overview', to: '/docs/about/license/overview_en' }
+                    ],
+                },
+                {
+                    title: '关于我们',
+                    items: [
+                        { label: '入群必读', to: 'docs/rules/encounter' },
+                        { label: '群规', to: 'docs/rules/rules_main_text' },
+                        { label: '本群名菜（划掉）', to: '/docs/about/menu' },
+                        { label: '群历史', to: '/docs/about/group_history' },
+                        { label: '群文档历史', to: '/docs/about/history' },
+                        { label: '关于群文档', to: '/docs/about/about_groupdoc' }
+                    ]
+
                 },
             ],
             copyright: `版权归 © 2019 - ${new Date().getFullYear()} 极筑 · 量筒地图测试群所有。本站使用 Docusaurus 构建。`,

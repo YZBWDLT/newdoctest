@@ -96,3 +96,12 @@ sidebar_position: 1
 - 地址 - rain.cvm.xiaozhiyuqwq.top
 - 端口 - 40000
 - 版本 - 1.21.50
+
+## 起床战争服
+
+> 基于本群资源[量筒的起床战争](../resources/developing/bedwars/homepage)而开服。  
+  目前处于最新测试版，欢迎各位成员前来测试，友谊第一，比赛第二！禁止作弊哦！
+
+- 地址 - apple.cvm.xiaozhiyuqwq.top
+- 端口 - 11451
+- 版本 - 1.21.50
